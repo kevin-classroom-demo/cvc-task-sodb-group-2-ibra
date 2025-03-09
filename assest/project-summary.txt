@@ -1,0 +1,85 @@
+# Project Summary
+
+## Project Purpose
+This project is a responsive web page that includes a navigation bar, footer links, and a contact form with form validation. The goal is to create a user-friendly and visually appealing website with a focus on responsiveness and accessibility.
+
+## Installation & Setup Guide
+
+### Prerequisites
+- A code editor (VS Code, Sublime Text, etc.)
+- A browser (Chrome, Firefox, Edge, etc.)
+
+### Steps to Install & Run the Project
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/your-repo/project-name.git
+   ```
+2. **Navigate to the Project Directory**
+   ```sh
+   cd project-name
+   ```
+3. **Open the Project in a Browser**
+   - Open `index.html` in a browser
+
+## How to Contribute
+
+### Steps to Contribute
+1. **Fork the Repository**
+2. **Clone the Forked Repository**
+   ```sh
+   git clone https://github.com/your-username/project-name.git
+   ```
+3. **Create a New Branch**
+   ```sh
+   git checkout -b feature-branch-name
+   ```
+4. **Make Your Changes & Commit**
+   ```sh
+   git add .
+   git commit -m "Describe your changes"
+   ```
+5. **Push to Your Forked Repository**
+   ```sh
+   git push origin feature-branch-name
+   ```
+6. **Open a Pull Request** on GitHub
+
+## Reviewing Pull Requests Before Merging
+To ensure code quality:
+- Review the code for readability and consistency.
+- Check for any potential security vulnerabilities.
+- Ensure proper documentation is added.
+- Test the changes locally before approving.
+
+## Resolving Merge Conflicts
+If a merge conflict occurs:
+1. **Fetch the latest changes**
+   ```sh
+   git fetch origin
+   ```
+2. **Checkout to the main branch and merge latest changes**
+   ```sh
+   git checkout main
+   git pull origin main
+   ```
+3. **Switch to your feature branch and merge main into it**
+   ```sh
+   git checkout feature-branch-name
+   git merge main
+   ```
+4. **Resolve Conflicts Manually**
+   - Open conflicting files in a text editor
+   - Look for conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`)
+   - Edit and remove conflict markers
+5. **Add and Commit the Resolved Files**
+   ```sh
+   git add .
+   git commit -m "Resolved merge conflicts"
+   ```
+6. **Push the updated branch**
+   ```sh
+   git push origin feature-branch-name
+   ```
+
+Once conflicts are resolved and changes are reviewed, the pull request can be merged successfully!
+
